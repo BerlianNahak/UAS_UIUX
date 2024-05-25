@@ -1,0 +1,444 @@
+@import url(variable.css);
+/*HEADER*/
+@font-face {
+    font-family: 'lemonada';
+    src: url(./asset/Lemonada-SemiBold.ttf);
+
+}
+body{
+    background-color: var(--coklat-main);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+nav>ul>li{
+    background-color: var(--coklat-muda);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--krem);
+}
+
+nav>ul>li:hover{
+    color: var(--coklat-main);
+    background-color: var(--oren);
+}
+
+nav>img{
+    width: 160px;
+    height: auto;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header >h1{
+    font-family: lemonada;
+    color: var(--krem);
+    font-size: 80px;
+    margin-top: 160px;
+    max-width: 320px;
+    margin-left: 40px;
+}
+
+header>h1:hover{
+    color: var(--oren);
+}
+
+header>img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 550px;
+    height: auto;
+    filter: blur(3px);
+}
+
+header img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+  }
+  
+header img:hover {
+    transform: scale(1.0); 
+    opacity: 0.8; 
+    content: url(asset/gambar\ sate-08.png);
+    filter: blur(0);
+    
+
+  }
+
+.ourmenu{
+    display: flex;
+    position: relative;
+    margin-left: 12em;
+    margin-top: 32px;
+    font-family: lemonada;
+    color: var(--krem);
+    background-color:var(--merah);
+    padding: 16px 24px 16px 24px;
+    font-size: 40px;
+    border-radius: 24px;
+    border-style: none;
+}
+
+.satekulit-container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.satekulit-details{
+    margin: 80px;
+    margin-top: 95px;
+    margin-left: 200px;
+    
+}
+
+
+.satekulit-details h3{
+    font-family: lemonada;
+    font-size: 90px;
+    color: var(--krem);
+    margin-bottom: 20px;
+}
+
+
+
+.satekulit-details h3:hover{
+    color: var(--oren);
+}
+.satekulit-details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--krem);
+    margin: 10px;
+}
+
+.satekulit-details h5{
+    font-family: lemonada;
+    font-size: 20px;
+    color: var(--krem);
+    background-color: var(--biru-abu);
+    border-style: none;
+    border-radius: 12px;
+    padding: 20px 5px 20px 10px ;
+    max-width: 120px;
+
+} 
+
+.satekulit-image{
+    margin: 80px 80px 80px 0px;
+    width: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.satekulit-image img{
+    filter: blur(3px);
+    width: 540px;
+    height: auto;
+    border-radius: 0px 12px 12px 0px;
+    
+}
+
+
+
+.satekulit-image img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+  }
+  
+  .satekulit-image img:hover {
+    transform: scale(1.0);
+    opacity: 0.8;
+    content: url(asset/sate-kulit.png);
+    filter: blur(0);
+  }
+
+.satepaha-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.satepaha-detail{
+    margin: 10px;
+    align-items: center;
+    margin-top: -130px;
+}
+
+.satepaha-detail h3{
+    font-family: lemonada;
+    font-size: 90px;
+    color: var(--krem);
+    margin: 10px;
+
+}
+
+.satepaha-detail h3:hover{
+    color: var(--oren);
+}
+
+.satepaha-detail p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--krem);
+    max-width: 200px;
+    
+
+}
+
+.satepaha-detail h5{
+    font-family: lemonada;
+    font-size: 20px;
+    color: var(--krem);
+    background-color: var(--biru-abu);
+    border-style: none;
+    border-radius: 12px;
+    padding: 20px 5px 20px 10px ;
+    max-width: 120px;
+    
+} 
+
+.satepaha-image{
+    margin-left:300px;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+.satepaha-image img{
+    width: 540px;
+    height: auto;
+    border-radius: 12px 0px 0px 12px;
+    filter: blur(3px);
+}
+
+.satepaha-image img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+  }
+  
+  .satepaha-image img:hover {
+    transform: scale(1.0); 
+    opacity: 0.8;
+    content: url(asset/sate-paha.png);
+    filter: blur(0);
+  }
+
+.satebakso-container{
+    display: flex;
+    flex-direction: row;
+}
+.satebakso-detail{
+    margin: 80px;
+    margin-top: 95px;
+    margin-left: 200px;
+    
+    
+}
+
+.satebakso-detail h3{
+    font-family: lemonada;
+    font-size: 90px;
+    color: var(--krem);
+    margin: 10px;
+    
+
+}
+
+.satebakso-detail h3:hover{
+    color: var(--oren);
+}
+
+.satebakso-detail p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--krem);
+    max-width: 350px;
+}
+
+.satebakso-detail h5{
+    font-family: lemonada;
+    font-size: 20px;
+    color: var(--krem);
+    background-color: var(--biru-abu);
+    border-style: none;
+    border-radius: 12px;
+    padding: 20px 5px 20px 10px ;
+    max-width: 120px;
+
+} 
+
+.satebakso-image{
+    margin: 80px 80px 80px 0px;
+    width: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.satebakso-image img{
+    width: 540px;
+    height: auto;
+    border-radius: 0px 12px 12px 0px;
+    filter: blur(3px);
+}
+
+.satebakso-image img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    
+  }
+  
+  .satebakso-image img:hover {
+    transform: scale(1.0); 
+    opacity: 0.8; 
+    content: url(asset/sate-bakso.png);
+    filter: blur(0);
+  }
+
+
+
+
+.aboutus-detail{
+    text-align: center;
+    color: var(--krem);
+}
+.aboutus-detail button{
+    font-family: lemonada;
+    font-size: 40px;
+    color: var(--krem);
+    background-color: var(--merah);
+    border-radius: 12px;
+    padding: 16px 24px 16px 24px;
+    border-style: none;
+    
+}
+
+.aboutus-detail p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.review-container{
+    flex-direction: row;
+    margin: 90px 0px 90px 700px;
+    border-radius: 12px 0px 0px 12px;
+    background-color: var(--coklat-muda);
+    border-color: var(--coklat-muda);
+    box-shadow: 0 4px 8px rgba(60, 41, 41, 50%);
+    padding: 12px 0px 0px 12px;
+}
+
+.review-text{
+    font-family: lemonada;
+    color: var(--krem);
+    margin-left: 55px;
+}
+
+.bintang-review{
+    display: flex;
+    flex-direction: row;
+    color: var(--oren);
+    font-size: 45px;
+    margin-left: 55px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-text h1{
+    font-family: lemonada;
+    font-size: 40px;
+    color: var(--krem);
+}
+
+.contact-image-ig{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+}
+.contact-image-ig img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.contact-image-ig h5{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--krem);
+}
+
+.contact-image-ig h5:hover{
+    color: var(--oren);
+}
+
+.contact-image-wa{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+}
+.contact-image-wa img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.contact-image-wa h5{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--krem);
+}
+
+.contact-image-wa h5:hover{
+    color: var(--oren);
+}
+
+.satekulit-details{
+    background-color: var(--coklat-muda);
+    border-radius: 12px;
+    padding: 15px 30px 15px 30px;
+    margin-top: 70px;
+    margin-bottom: 105px;
+
+}
+
+.satepaha-detail{
+    background-color: var(--coklat-muda);
+    border-radius: 12px;
+    padding-right: 25px;
+    padding-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 105px;
+    margin: 10px;
+    
+    
+}
+
+.satebakso-detail{
+    background-color: var(--coklat-muda);
+    border-radius: 12px;
+    padding: 15px 30px 15px 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+}
